@@ -23,5 +23,5 @@ attr_accessor :waiter, :customer, :total, :tip
   Meal.all.select do |meal|
     meal.customer == self
   end
-end
+
 end
